@@ -15,19 +15,13 @@ Stencil components are just Web Components, so they work in any major framework 
 Clone the repo
 
 ```bash
-git clone https://github.com/Edd-Strickland/vanilla-sb-stencil.git
-```
-
-Then change to the vanilla Storybook/Stencil implementation:
-
-```bash
-git checkout -b vanilla
+git clone https://github.com/Edd-Strickland/stencilbook.git
 ```
 
 Change into the base directory:
 
 ```bash
-cd vanilla-sb-stencil
+cd stencilbook
 ```
 
 Install the modules:

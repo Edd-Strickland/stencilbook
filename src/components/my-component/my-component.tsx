@@ -27,6 +27,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hi from Yoobic {this.getText()}; Or just plain old javascript... </div>;
+    return <div>Hello {this.getText()}; Or just plain old javascript... </div>;
   }
 }
