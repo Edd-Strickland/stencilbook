@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-demo",
+  "name": "stencilbook",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/vanilla-demo/vanilla-demo.js",
+  "unpkg": "dist/stencilbook/stencilbook.js",
   "files": [
     "dist/",
     "loader/"
