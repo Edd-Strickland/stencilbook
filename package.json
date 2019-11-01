@@ -16,7 +16,6 @@
   ],
   "scripts": {
     "build:all": "rm -rf www && rm -rf public && npm run stencil && npm run storybook:build",
-    "dsm": "dsm-storybook publish -s www -c .storybook",
     "stencil": "stencil build --docs",
     "stencil:start": "stencil build --dev --watch --serve",
     "storybook:build": "build-storybook -s www -c .storybook -o public",
