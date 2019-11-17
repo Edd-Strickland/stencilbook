@@ -25,5 +25,8 @@ export const config: Config = {
     '**/*.spec.*',
     '**/*.e2e.*',
     '**/*.stories.*'
-  ]
+  ],
+  devServer: {
+    openBrowser: false
+  }
 };
