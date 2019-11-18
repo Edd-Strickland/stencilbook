@@ -1,4 +1,5 @@
 import { Config } from '@stencil/core';
+import { sass } from '@stencil/sass';
 
 export const config: Config = {
   namespace: 'stencilbook',
@@ -16,4 +17,16 @@ export const config: Config = {
     }
   ],
   enableCache: false,
+  plugins: [
+    sass()
+  ],
+  excludeSrc: [
+    '/test/',
+    '**/*.spec.*',
+    '**/*.e2e.*',
+    '**/*.stories.*'
+  ],
+  devServer: {
+    openBrowser: false
+  }
 };
